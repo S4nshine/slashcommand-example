@@ -11,7 +11,7 @@ app.post("/challenge",(req,res)=>{
 
 app.post("/command",(req,res) => {
   var r = req.body
-  console.log(r.response_url);
+ // console.log(r.response_url);
   fetch(r.response_url,{
      headers: {
       "Content-Type":"appplication/json"
